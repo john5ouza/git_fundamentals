@@ -1,1 +1,4 @@
 # Short file about main branch
+
+1. Add bugfix to feature branch
+2. Solved some features
