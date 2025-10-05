@@ -6,7 +6,6 @@
 ---
 
 ### Fluxo de trabalho Git local
-
 * git checkout -b
 * cria ou atualiza arquivos
 * git status
@@ -14,7 +13,6 @@
 * git status
 * git commit -m "minha mensagem"
 * git checkout main
-* git merge nova\_branch
 
 ### Fluxo de trabalho GitHub <> Local (projeto próprio ou da sua empresa)
 * git clone
@@ -29,3 +27,4 @@
 * excluir <nova_branch> origin
 * git checkout main
 * git branch -D <nova_branch>
+
