@@ -1,4 +1,3 @@
-# Python Study Notes
-> LinuxTips Python Base Course
+# GIT/GITHUB CLASSES
 
-Reviewing Python fundamentals for backend.
+Working on the fundamentals of Git and GitHub with examples and workflows.
