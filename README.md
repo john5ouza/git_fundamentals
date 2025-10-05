@@ -15,4 +15,3 @@ git status
 git commit -m "minha mensagem"
 git checkout main
 git merge nova\_branch
-
