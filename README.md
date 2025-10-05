@@ -1,18 +1,44 @@
-# Python Study Notes
-> LinuxTips Python Base Course
+# GIT/GITHUB CLASSES
 
-ls -> lista arquivos
-cd -> move entre diretórios
-pwd -> mostra diretório de trabalho
-cat -> mostra o que tem dentro do arquivo
 
-## WORKFLOW
-1. create repository
-2. git init
-3. edit/alter file
-4. git status
-5. git add <file_name>
-6. git status
-7. git commit -m "message"
-8. git status
-9. back to step 3
+> Working on the fundamentals of Git and GitHub with examples and workflows.
+
+---
+
+### Fluxo de trabalho Git local
+* git checkout -b
+* cria ou atualiza arquivos
+* git status
+* git add arquivos
+* git status
+* git commit -m "minha mensagem"
+* git checkout main
+
+### Fluxo de trabalho GitHub <> Local (projeto próprio ou da sua empresa)
+* git clone
+* git checkout -b <nova_branch>
+* alterações de arquivos
+* git status
+* git add arquivos
+* git status
+* git commit -m "nova mensagem"
+* git push origin <nova_branch>
+* abrir Pull request no GitHub para main
+* excluir <nova_branch> origin
+* git checkout main
+* git branch -D <nova_branch>
+
+### Fluxo de trabalho GitHub <> Local (projetos open-source)
+* Fork do projeto para seu próprio github
+* git clone
+* git checkout -b <nova_branch>
+* alterações de arquivos
+* git status
+* git add arquivos
+* git status
+* git commit -m "nova mensagem"
+* git push origin <nova_branch>
+* abrir Pull request no GitHub da branch fork para a main do projeto * original
+* excluir <nova_branch> origin
+* git checkout main
+* git branch -D <nova_branch>
