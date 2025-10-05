@@ -1,9 +1,6 @@
 # GIT/GITHUB CLASSES
 
-
-> Working on the fundamentals of Git and GitHub with examples and workflows.
-
----
+> Working on the fundamentals of Git and GitHub with examples and workflows and some updates.
 
 ### Fluxo de trabalho Git local
 * git checkout -b
